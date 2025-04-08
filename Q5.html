@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>CSS NAVIGATION MENU</title>
+    <style>
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    height: 80px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+ul li{
+    margin: 0px 6px;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(214, 97, 14);
+    color: black;
+    border: 1px solid;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 0.5s ease;
+}
+
+a:hover{
+    background-color: rgb(176, 7, 218);
+    color: rgb(115, 255, 0);
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="par">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, temporibus amet, vitae commodi ducimus sapiente tempora nemo deserunt veritatis nisi doloremque quas, expedita voluptates quasi delectus minus incidunt saepe ad.</p>
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">About</a></li>
+                <li> <a href="#">Gallery</a></li>
+                <li> <a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+</html>
